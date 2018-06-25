@@ -9,6 +9,6 @@ def line(current_line)
       i+1
     end
       sring_line = line.join(" ")
-      puts "The line is currently: #{line}."
+      puts "The line is currently: #{string_line}."
   end
 end
