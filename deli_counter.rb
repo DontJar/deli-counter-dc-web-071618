@@ -6,7 +6,8 @@ def line(current_line)
       current_line.each_with_index do |person, i|
       line << "#{i+1}. #{person}"
     end
-      string_line = line.join(" ")
-      puts "The line is currently: #{string_line}"
+      # string_line = line.join(" ")
+      # puts "The line is currently: #{string_line}"
+      puts "The line is currently: #{line}"
   end
 end
