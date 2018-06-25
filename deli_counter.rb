@@ -9,6 +9,6 @@ def line(current_line)
       i+1
     end
       string_line = line.join(" ")
-      puts "The line is currently: #{string_line}."
+      puts "The line is currently: #{string_line}"
   end
 end
