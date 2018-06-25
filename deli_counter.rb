@@ -7,4 +7,3 @@ def line(current_line)
       line << "#{i-1}. #{person}"
       i+1
       puts "The line is currently #{line}."
-end
