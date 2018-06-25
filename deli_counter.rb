@@ -6,7 +6,7 @@ def line(current_line)
     else current_line.each do |person|
       line << "#{i+1}. #{person}"
       i+1
-      puts "The line is currently #{line}."
     end
+      puts "The line is currently: #{line}."
   end
 end
