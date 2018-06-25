@@ -3,7 +3,7 @@ def line(katz_line)
       puts "The line is currently empty."
     else
       line = []
-      current_line.each_with_index do |person, i|
+      katz_line.each_with_index do |person, i|
       line << "#{i+1}. #{person}"
     end
       string_line = line.join(" ")
