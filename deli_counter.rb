@@ -19,4 +19,6 @@ end
 def now_serving(katz_line)
   if katz_line.size == 0
     puts "There is nobody waiting to be served!"
+  else
+    puts "nothing"
   end
