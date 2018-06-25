@@ -15,3 +15,8 @@ def take_a_number(katz_line, name)
   katz_line << name
   puts "Welcome, #{name}. You are number #{katz_line.size} in line."
 end
+
+def now_serving(katz_line)
+  if katz_line.size == 0
+    puts "There is nobody waiting to be served!"
+  end
