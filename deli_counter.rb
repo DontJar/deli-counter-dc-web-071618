@@ -8,7 +8,7 @@ def line(current_line)
       line << "#{i+1}. #{person}"
       i+1
     end
-      sring_line = line.join(" ")
+      string_line = line.join(" ")
       puts "The line is currently: #{string_line}."
   end
 end
